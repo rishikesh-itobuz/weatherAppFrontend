@@ -1,0 +1,103 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #3937fa;
+  color: #eef6fe;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-icons {
+  height: 6rem;
+  width: 6rem;
+}
+
+#dropDown {
+  background-color: red;
+  list-style-type: none;
+  height: 8rem;
+  overflow-y: scroll;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+
+#dropDown li {
+  padding: .2rem;
+}
+
+.hide {
+visibility: hidden;
+}
+
+#dropDown li a {
+  text-decoration: none;
+  color: #eef6fe;
+  font-size: 2rem;
+  font-weight: medium;
+ 
+}
+
+#dropDown li a:hover {
+  color:rgb(18, 81, 81)
+}
+
+#country-name {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #eef6fe;
+  border: none;
+  background-color: #a9a8c0;
+  text-align: center;
+  outline: none;
+  padding: 1rem 0rem;
+}
+
+.temperature-value {
+  font-size: 64px;
+  font-weight: bold;
+  margin-left: 30px;
+  position: relative;
+  top: -28px;
+}
+
+#feel-like-data {
+  color: #3896ff;
+  font-size: 32px;
+  font-weight: medium;
+ position: relative;
+  top: -27px;
+  margin-left: 130px;
+}
+
+.description-text {
+  color: #79dcf7;
+  font-size: 3rem;
+  font-weight: medium;
+  text-align: center;
+}
+
+@media (min-width: 270px) {
+  html {
+    font-size: 6px;
+  }
+}
+@media (min-width: 700px) {
+  html {
+    font-size: 10px;
+  }
+}
