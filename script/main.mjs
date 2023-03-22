@@ -36,8 +36,8 @@ async function dataGetter() {
     .then((data) => {
       for (let i = 0; i < data.length; i++) {
         if (data[i].location === countryName) {
-          temperature.innerHTML = `${data[i].temp}  <sup style="font-size: 32px;">&#8451</sup> `;
-          feelValueData.innerHTML = `Feels ${data[i].feelsLike} <sup style="font-size: 20px;">&#8451</sup> `;
+          temperature.innerHTML = `${data[i].temp}  <sup style = "font-size: 32px;"> &#8451 </sup> `;
+          feelValueData.innerHTML = `Feels ${data[i].feelsLike} <sup style = "font-size: 20px;"> &#8451 </sup> `;
           if (data[i].temp < 10) image.src = "./img/rainy.png";
           else if (data[i].temp >= 10 && data[i].temp < 20)
             image.src = "./img/cloudy.png";
