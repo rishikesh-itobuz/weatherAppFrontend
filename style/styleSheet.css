@@ -43,7 +43,7 @@ body {
 visibility: hidden;
 }
 
-#dropDown li a {
+.dropdown-value {
   text-decoration: none;
   color: #eef6fe;
   font-size: 2rem;
@@ -51,7 +51,7 @@ visibility: hidden;
  
 }
 
-#dropDown li a:hover {
+#dropDown  a:hover {
   color:rgb(18, 81, 81)
 }
 
@@ -79,12 +79,12 @@ visibility: hidden;
   color: #3896ff;
   font-size: 32px;
   font-weight: medium;
- position: relative;
+  position: relative;
   top: -27px;
   margin-left: 130px;
 }
 
-.description-text {
+.footer-text {
   color: #79dcf7;
   font-size: 3rem;
   font-weight: medium;
@@ -96,6 +96,7 @@ visibility: hidden;
     font-size: 6px;
   }
 }
+
 @media (min-width: 700px) {
   html {
     font-size: 10px;
